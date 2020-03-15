@@ -1,0 +1,33 @@
+{
+  "name": "ws-product-nodejs",
+  "version": "0.1.0",
+  "description": "API work samples",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EQWorks/ws-product-nodejs.git"
+  },
+  "author": "woozyking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EQWorks/ws-product-nodejs/issues"
+  },
+  "homepage": "https://github.com/EQWorks/ws-product-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-env-run": "^3.0.2",
+    "pg": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
